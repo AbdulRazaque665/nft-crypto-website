@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+ 
+*{
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.bg-img{
+    max-width: 100%;
+    height: auto;
+    background-repeat: none;
+    background-size: cover;
+    background-image: url('/images/3d-abstract-space-background-with-wireframe-landscape\ 1\ \(1\).png');
+
+}
+.bg-color{
+    background-color: rgba(24, 28, 76, 0.70);
+    opacity: 100%;
+}
+.green-color-border{
+   border: 2px solid #42E492;
+}
+.green-color{
+    color: #42E492;
+}
+.padding{
+    padding: 4% 5%;
+}
+.green-bg{
+   background-color: #42E492;
+}
+.box-shadow{
+    filter: drop-shadow(8px 8px 0px white);
+}
+.bg-img-2{
+    background-image:url('/images/bg-im2.png') ;
+    background-size: cover;
+    background-repeat: none;
+    max-width: 100%;
+    height: auto
+}
+.icon{
+    transition: 0.5s;
+}
+.icon:hover{
+  scale: 1.01;
+  transition: 0.5s;
+}
